@@ -1,14 +1,16 @@
  <?php  
  // php kod yozamiz
+//bu constanta turiga kiradi
+define('RANG', 'yashil');
+define('DASTURLASH', 'PHP');
+define('DASTURLASH', 'JAVA'); // BU XATO 2MARTA BERBUMIDI 
 
-//$pi = pi(); //pin bu matematikadagi 3.14 ni beradi
+//echo DASTURLASH;
 
-//echo $pi;
+$til = 'php';
+$til = 'java';
 
-//$min = max(0, 20, 40, 33, 150);//bu esa raqamlarning katta kichigini aniqlaydi min max qiganimizda
-//echo $min;
+echo $til;
 
-$math = rand(); // bu raqamlarni tasodifiy ekranga chiqarib beradi yani random.
-echo $math;
 ?>
  
