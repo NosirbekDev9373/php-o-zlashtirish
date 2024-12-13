@@ -1,22 +1,22 @@
  <?php  
  // php kod yozamiz
 
-
-$txt1 = "php tilini urganish";
-$txt2 = " nmadir.com";
-$x = 5;
-$y = 6;
-
-//echo da ishlash oddiygina
-echo '<h2>' . $txt1 . '</h2>';
-echo '<p>urganish php ' . $txt2 . '</p>';
-
-echo $x + $y;
-
-//prin buyrug'i bilan ham xuddi shunday
-print "<h2>PHP is Fun!</h2>";
-print "Hello world!<br>";
-print "I'm about to learn PHP!";
+/*
+String
+Integer
+Float (floating point numbers - also called double)
+Boolean
+Array
+Object
+NULL
+Resource
+*/
+$string = 'Salom dunyo';
+$integer = '123612764871';
+$float = '43.5';
+$boolean = 'true';//	true = 1 , false = 0
+$array = ['birinchi', 'ikkinchi', 3, 43.6, true];
+$array2 = array('birinchi', 'ikkinchi', 3, 43.6, true);
 
 ?>
  
