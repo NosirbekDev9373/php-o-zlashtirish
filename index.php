@@ -8,7 +8,7 @@
 //$min = max(0, 20, 40, 33, 150);//bu esa raqamlarning katta kichigini aniqlaydi min max qiganimizda
 //echo $min;
 
-$math = rand(); // bu raqamlarni tasodifiy ekranga chiqarib beradi
+$math = rand(); // bu raqamlarni tasodifiy ekranga chiqarib beradi yani random.
 echo $math;
 ?>
  
