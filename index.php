@@ -1,33 +1,37 @@
  <?php  
 
-// if
-// if .... else 
-// if .... elseif ... else
+// Switch
 
-/*
-if(shart) {
-	
-} elseif(shart){
-	
-} elseif(shart){
-	
-} else {
-	
-}
+ $rang = 'yashil';
 
-*/
+ switch ($rang) {
+ 	case 'qizil':
+ 	case 'sariq':
+ 	    echo 'rang sariqga teng';
+ 	    break;
+    case 'kuk':
+    case 'oq':
+         echo 'kuk rang chiqar';
+         break;
+ 	case 'yashil':
+ 	    echo 'yashil ga teng busa chiq';
+ 	    break;
+ 	default:     
+ 	    echo 'bu rang bizda yo\'q';	
+ }
 
-//misol uchun mana
+ if($rang == 'yashil'){
+ 	echo ' rang yashilga teng';
+ } elseif ($rang == 'qizil') {
+ 	echo 'rang qizilga teng';
+ } else {
+ 	echo 'bu rang bizda yoq';
+ }
 
-$x = 12;
-$y = 12;
 
-if($x == $y){
-	echo 'x teng y ga';
-} elseif($x > $y){
-	echo 'x y dan katta';
-} elseif($x < $y){
-    echo 'x y dan kichkina';
-} else {
-	echo 'x teng emas y ga';
-}
+
+
+
+
+
+ ?>
