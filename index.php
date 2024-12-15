@@ -1,16 +1,53 @@
  <?php  
- // php kod yozamiz
-//bu constanta turiga kiradi
-define('RANG', 'yashil');
-define('DASTURLASH', 'PHP');
-define('DASTURLASH', 'JAVA'); // BU XATO 2MARTA BERBUMIDI 
 
-//echo DASTURLASH;
+// php operators
 
-$til = 'php';
-$til = 'java';
+ /*
+ Arithmetic operators
+Assignment operators
+Comparison operators
+Increment/Decrement operators
+Logical operators
+String operators
+Array operators
+Conditional assignment operators
+*/
 
-echo $til;
 
+/*
+and - va 
+or - yoki 
+not - teskari / yoq
+*/
+/*
+$x = 5;
+$y = 5;
+
+
+$con = true;
+
+if(!$con){
+	echo 'x teng y'; // x va y teng busa ekranga chiqadi 
+} else {
+	echo 'teng emas'; // x va y teng bumasa ekranga chiqadi
+}
+*/
+// bu bajaryotgan mashqimiz Array operatorsga taluqli
+
+
+//39-qatorimiz if shartimizni qisqachasi
+//$x = (1 == 1) ? 'x birga teng' : 'x xech nimaga teng';
+// ?:
+//??	
+
+if(1 == 1){              // if sharti
+	$x = 'x birga teng';
+} 
+else {
+	$x = 'x xech nimaga teng';
+}
+
+
+echo $x;
 ?>
- 
+  
