@@ -1,53 +1,33 @@
  <?php  
 
-// php operators
-
- /*
- Arithmetic operators
-Assignment operators
-Comparison operators
-Increment/Decrement operators
-Logical operators
-String operators
-Array operators
-Conditional assignment operators
-*/
-
+// if
+// if .... else 
+// if .... elseif ... else
 
 /*
-and - va 
-or - yoki 
-not - teskari / yoq
-*/
-/*
-$x = 5;
-$y = 5;
-
-
-$con = true;
-
-if(!$con){
-	echo 'x teng y'; // x va y teng busa ekranga chiqadi 
+if(shart) {
+	
+} elseif(shart){
+	
+} elseif(shart){
+	
 } else {
-	echo 'teng emas'; // x va y teng bumasa ekranga chiqadi
+	
 }
+
 */
-// bu bajaryotgan mashqimiz Array operatorsga taluqli
 
+//misol uchun mana
 
-//39-qatorimiz if shartimizni qisqachasi
-//$x = (1 == 1) ? 'x birga teng' : 'x xech nimaga teng';
-// ?:
-//??	
+$x = 12;
+$y = 12;
 
-if(1 == 1){              // if sharti
-	$x = 'x birga teng';
-} 
-else {
-	$x = 'x xech nimaga teng';
+if($x == $y){
+	echo 'x teng y ga';
+} elseif($x > $y){
+	echo 'x y dan katta';
+} elseif($x < $y){
+    echo 'x y dan kichkina';
+} else {
+	echo 'x teng emas y ga';
 }
-
-
-echo $x;
-?>
-  
